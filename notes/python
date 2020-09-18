@@ -1,0 +1,142 @@
+FUNCTION
+
+def calculate_sum(data1, data2):
+    result_sum=data1+data2
+    return result_sum
+
+result=calculate_sum(10,20)
+-----------------------------------------------------
+IF
+ELIF
+ELSE
+
+NO SWITCHCASE
+-------------------------------------------
+for number in range (start, end, step):
+    print("The current number is ", number)
+
+OUTER BOUND EXCLUSIVE
+---------------------------------
+LIST
+
+list1=[]
+len(list)
+
+if "AI" in list1:
+  print "true"
+else:
+  print "faLse"
+-----------------------------------
+SLICING
+
+List of airlines	AI	SJ	JA	EM	AA
+Index	            0	  1	  2	  3	  4
+Negative Index	 -5	 -4	 -3	 -2	 -1
+
+LIST[1:4]   UPPER BOUND EXCLUSIVE
+LIST[-4:-1] WILL GIVE SAME result
+LIST[::-1] REVERSES THE LIST
+----------------------------------------------
+DICTIONARY
+
+crew_details=
+{ "Pilot":"Kumar",
+"Co-pilot":"Raghav",
+"Head-Strewardess":"Malini",
+"Stewardess":"Mala" }
+
+crew_details["Pilot"]
+
+IMPORTANT
+
+for key,value in crew_details.items():
+     print(key,":",value)
+
+crew_details.update({"Pilot":"Sachin"})   IF NOT PRESENT WILL ADD NEW ENTRY
+                                          IF PRESENT WILL UPDATE
+---------------------------------------------
+TRY EXCEPT FINALLY
+------------------------------------------
+A PROJECT MAY HAVE MANY PACKAGES
+ONE PACKAGE HAS MANY FILES NAMED MODEULES
+#from packagename import modulename
+--------------------------------------------
+SEE REGEX LAMDA FUNCTIONS
+-----------------------
+OBJECT ORIENTED PROGRAMMING
+
+
+class Mobile:
+    def __init__(self, brand, price):
+        print("Inside constructor")
+        self.brand = brand
+        self.price = price
+
+    def purchase(self):
+        print("Purchasing a mobile")
+        print("This mobile has brand", self.brand, "and price", self.price)
+
+print("Mobile-1")
+mob1=Mobile("Apple", 20000)
+mob1.purchase()
+
+print("Mobile-2")
+mob2=Mobile("Samsung",3000)
+mob2.purchase()
+-------------------------------------------------------------------------
+
+class Mobile:
+    def __init__(self, brand, price):
+        self.brand = brand
+        self.price = price
+
+mob1=Mobile("Apple", 1000)
+mob2=Mobile("Samsung", 2000)
+mob3=Mobile("Apple", 3000)
+mob4=Mobile("Samsung", 4000)
+mob5=Mobile("Apple", 5000)
+
+list_of_mobiles=[mob1, mob2, mob3, mob4, mob5]
+
+for mobile in list_of_mobiles:
+    print (mobile.brand,mobile.price)
+-------------------------------------------
+    mob_dict={
+              "m1":mob1,
+              "m2":mob2,
+              "m3":mob3
+              }
+
+    for key,value in mob_dict.items():
+        if value.price > 3000:
+            print (value.brand,value.price)
+-----------------------------------------------------------------------------
+STATIC
+class Mobile:
+    __discount = 50
+    def __init__(self, price, brand):
+        self.price = price
+        self.brand = brand
+
+    def purchase(self):
+        total = self.price - self.price * Mobile.__discount / 100
+        print ("Total is ",total)
+
+    @staticmethod
+    def get_discount():
+        return Mobile.__discount
+
+    @staticmethod
+    def set_discount(discount):
+        Mobile.__discount = discount
+
+print (Mobile.get_discount())
+-------------------------------------------------------------------------
+AGGREGATION
+
+add1=Address(123,"5th Lane",56001)
+add2=Address(567,"6th Lane",82006)
+
+cus1=Customer("Jack",24,1234,add1)
+cus2=Customer("Jane",25,5678,add2)
+-------------------------------------------------

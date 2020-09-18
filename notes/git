@@ -1,0 +1,68 @@
+git github gitlab
+
+--------------------
+git --version
+
+git status
+
+git init -------------makes a repository
+---------------------------------------------------------staging
+git add .  -----------all files to staging area
+
+git add --a
+------------------------------------------------------------commit and log
+git commit -m version "version 1"
+
+git log
+
+
+------------------------------------
+git config --global user.name "Harshal"
+
+git config --global email.id "harshalvaidya18@gmail.com"
+
+git config user.name
+
+git config user.email
+
+-----------------------
+rm -rf .git      deletes the repository
+git clone URL
+----------------------------------
+touch .gitignore
+IN GITIGNORE FOR EXAMPLE PUT .LOG FILES OR DIR/ OR STATIC/DIR   ALL THESE FILES WOULD BE IGNORED
+------------------------------------------
+git diff ------------> compares staging area and working directory
+git dif --staged-----> compares last commit with current staging area
+--------------------------------
+git add -a -m "Version2"   ----directly commits
+--------------------------------
+git rm filex.txt     ---- removes file
+git mv file.tx renamedfile.txt   ----------renames file
+git rm --cached files.db      -------will stop tracking the file
+-------------------------------------------------------------------
+THIS IS VIDEO 11
+
+git log -p
+git log --stat
+git log --pretty=oneline
+git log --pretty=short OR oneline OR full
+git log --since=2.days OR months OR years
+
+and changing commit 11 number ka video......by using git commit --amend
+----------------------------------------------------------------
+git checkout --filename
+git checkout -f
+
+----------------------------------
+13
+working with remote repositories has information about SSH key
+git remote
+git remote add --------------------------------name of git repository
+git remote -v
+git push -u origin master
+
+--------------------------------
+ALIASING
+give big commands short names
+git config --global alias.last 'log -p -1'

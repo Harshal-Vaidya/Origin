@@ -1,0 +1,43 @@
+
+
+Connection-specific DNS Suffix  . :
+IPv6 Address. . . . . . . . . . . : 2405:201:3204:9fd5:f56c:b3ab:be16:361c
+Temporary IPv6 Address. . . . . . : 2405:201:3204:9fd5:241b:da1f:4c6a:4e23
+Link-local IPv6 Address . . . . . : fe80::f56c:b3ab:be16:361c%5
+IPv4 Address. . . . . . . . . . . : 192.168.29.203
+Subnet Mask . . . . . . . . . . . : 255.255.255.0
+Default Gateway . . . . . . . . . : fe80::96fb:a7ff:fe62:8ff4%5
+                                    192.168.29.1
+
+Wireless LAN adapter Local Area Connection* 2:
+
+Connection-specific DNS Suffix  . :
+Link-local IPv6 Address . . . . . : fe80::7499:52b1:e275:2cfd%4
+IPv4 Address. . . . . . . . . . . : 192.168.137.1
+Subnet Mask . . . . . . . . . . . : 255.255.255.0
+Default Gateway . . . . . . . . . :
+------------------------------------------------------------------------------------------------
+10mins to pandas
+shodhpatra
+arpitzindahai6666
+---------------------------
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   IPv6 Address. . . . . . . . . . . : 2405:201:3204:9fc5:f56c:b3ab:be16:361c
+   Temporary IPv6 Address. . . . . . : 2405:201:3204:9fc5:38c4:c11e:d5b8:9d29
+   Link-local IPv6 Address . . . . . : fe80::f56c:b3ab:be16:361c%5
+   IPv4 Address. . . . . . . . . . . : 192.168.29.203
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : fe80::96fb:a7ff:fe62:8ff4%5
+                                       192.168.29.1
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::7499:52b1:e275:2cfd%4
+   IPv4 Address. . . . . . . . . . . : 192.168.137.1
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . :
+
+   -----------------------------------------------------------------------------------
